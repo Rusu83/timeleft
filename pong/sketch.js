@@ -19,7 +19,7 @@ if(instr!=1){
   textSize(36);
   text("Player1:W/S",40,50);
   text("Player2:O/L",40,90);
-  text("Apasa orice tasta sa incepeti...",40,130);
+  text("Press any key to start...",40,130);
   if(keyIsPressed)
     instr=1;
 }
