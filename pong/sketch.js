@@ -34,7 +34,7 @@ else{
   text(s2,width/2+20,45);
   rect(1,y1,30,150);
   rect(970,y2,30,150);
-  rect(x,y,30,30,50);
+  rect(x,y,30,30);
   if(cx==1)
     x=x+viteza;
   else
