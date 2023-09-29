@@ -26,7 +26,7 @@ function setup() {
 }
 
 function draw() {
-  background(0,40,40);
+  background(255,215,215);
   
   m=(hl*60+ml)-(hour()*60+minute());
   h=int(m/60);
