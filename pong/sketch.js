@@ -21,6 +21,7 @@ function setup() {
   blu.mousePressed(ult);
   
   textAlign(CENTER,CENTER);
+  textSize(height/5);
   
   frameRate(2);
 }
