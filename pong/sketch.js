@@ -29,10 +29,19 @@ function setup() {
 function draw() {
   background(255,215,215);
   
+  stroke(0,255,100);
+  strokeWeight(height/100);
+  
+  line(width/5,height*0.36,4*width/5,height*0.36);
+  line(width/5,height*0.6,4*width/5,height*0.6);
+  
   m=(hl*60+ml)-(hour()*60+minute());
   h=int(m/60);
   m=m-h*60;
   s=60-second();
+  
+  noStroke();
+  fill(0,255,100);
   
   text(hl+':'+ml+'\n'+(h*60+m)+'\n'+h+':'+m+':'+s,width/2,height/2);
 }
