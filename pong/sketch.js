@@ -7,7 +7,7 @@ function setup() {
   createCanvas(window.innerWidth, window.innerHeight-25);
   
   hl=15;
-  ml=55;
+  ml=45;
   
   hli=createInput();
   hli.size(20,15);
