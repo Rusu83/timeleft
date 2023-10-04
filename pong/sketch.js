@@ -29,8 +29,8 @@ function setup() {
 function draw() {
   background(255,215,215);
   
-  stroke(0,255,100);
-  strokeWeight(height/100);
+  stroke(26,179,148);
+  strokeWeight(height/80);
   
   line(width/5,height*0.36,4*width/5,height*0.36);
   line(width/5,height*0.6,4*width/5,height*0.6);
