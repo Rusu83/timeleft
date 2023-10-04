@@ -41,7 +41,7 @@ function draw() {
   s=60-second();
   
   noStroke();
-  fill(0,255,100);
+  fill(26,179,148);
   
   text(hl+':'+ml+'\n'+(h*60+m)+'\n'+h+':'+m+':'+s,width/2,height/2);
 }
