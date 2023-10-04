@@ -43,7 +43,7 @@ function draw() {
   noStroke();
   fill(26,179,148);
   
-  text(hl+':'+ml+'\n'+(h*60+m)+'\n'+h+':'+m+':'+s,width/2,height/2);
+  text(hour()+':'+minute()+"->"+hl+':'+ml+'\n'+(h*60+m)+'\n'+h+':'+m+':'+s,width/2,height/2);
 }
 
 function ult(){
